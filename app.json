@@ -17,8 +17,19 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "permissions": ["ACCESS_FINE_LOCATION"]
+      },
+      "config": {
+        "package": "com.horizon.foodly",
+        "googleMaps": {
+          "apiKey": "AIzaSyBDvHVufDyfzmyG8n8m94QatrGJqyHmP6Y"
+        }
+      },  "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE"
+      ],  "package": "com.horizon.foodly"
     },
     "web": {
       "favicon": "./assets/favicon.png"
